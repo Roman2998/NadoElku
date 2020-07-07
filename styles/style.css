@@ -1,0 +1,193 @@
+p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.2em;
+}
+@media only screen and (max-width: 770px) {
+    p{
+        font-size: 1em;
+    }
+}
+.navbar {
+    background-color:#0e0f0b;
+}
+.jumbotron {
+    height: 45em;
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: white;
+    margin-bottom: 0;
+    border-radius: 0;
+}
+body {
+    background-image: url(/images/body/bg.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+	padding: 0px; margin: 0px;
+}
+@media only screen and (max-width: 770px) {
+    body {
+        background-size: auto;
+    }
+}
+hr.m-y-2{
+    border-color: white;
+}
+hr.m-y-3{
+    border-color:black;
+    width: 70%;
+    border-top-width: 5px;
+}
+.jumbotronContent {
+    margin-top: 7em;
+    text-align: center;
+    color: white;
+}
+.contentTree{
+    background-color:white;
+}
+.card {
+    text-align: center;
+     border:none;/* grid */
+}
+.mb-3{
+    padding: 0;
+}
+.cardImage {
+    width: 7em;
+    text-align: center;
+}
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+.col-md-6 img {
+    object-fit: cover;
+    height: 300px;
+}
+.col-lg-6 {
+    text-align: -webkit-center;
+    background-color: #E91331;
+    max-height: 350px;
+}
+#colorCardImg {
+    border-radius: 0;
+    object-fit: cover;
+    height: 100%;
+}
+@media only screen and (max-width: 770px) {
+    #colorCardImg {
+        max-height: 300px;
+    }
+}
+.colorCardText {
+    /* background-color: #E91331; */
+    color: white;
+    align-items: center;
+}
+.colorCardText p {
+    padding: 0px 40px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.colorCardText h4 {
+    padding-top: 25px;
+    padding-bottom: 7px;
+
+}
+.cardText {
+    display: flex;
+    align-items:center;
+    text-align: left;
+}
+@media only screen and (max-width: 770px){
+    .cardText {
+        text-align: center;
+    }
+}
+#elki {
+    margin: 0px 90px;
+}
+@media only screen and (max-width: 770px) {
+    #elki {
+        margin: 0px 0px;
+        padding: 0px;
+    }
+}
+.card-body {
+    margin: 35px 0px;
+    padding: 5px;
+}
+.aboutContent {
+    padding: 10px 20px;
+}
+.no-gutters {
+    margin: 10px 0;
+}
+.imgHappy{
+    object-fit: cover;
+    height: 18em;
+    margin: 25px 0px;
+}
+
+.card-img-overlay {
+    display: flex;
+    align-items:center;
+    position: absolute;
+    text-align: left;
+    padding: 1.25rem;
+}
+.contacts {
+    padding-top: 35px;
+    padding-bottom: 50px;
+}
+
+footer {
+    background-color: #171717;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+footer a {
+    color: white;
+}
+.footer{
+    padding: 0px;
+}
+.createdBy{
+    display: block;
+}
+.orderTitle {
+    text-align: center;
+    display: contents;
+}
+.orderImage {
+    justify-content: center;
+}
+#btn-to-order{
+    color: white;
+    background-color: #28A745;
+}
+#btn-to-order:hover{
+    color: white;
+    background-color: #1E7E34;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-size: 100%, 100%;
+  background-image: none;
+}
+.carousel-control-next-icon:after
+{
+    content: '>';
+    color:#0e0f0b;
+}
+.carousel-control-prev-icon:after {
+    content: '<';
+    color:#0e0f0b;
+}
+#elka1Modal,#elka2Modal,#elka3Modal,#elka4Modal,
+#elka5Modal,#elka6Modal,#elka7Modal,#elka8Modal,
+#elka2-1Modal,#elka2-2Modal,#elka2-3Modal,#elka2-4Modal,
+#elka2-5Modal,#elka2-6Modal,#elka2-7Modal,#elka2-8Modal{
+    width: 250px;
+}
